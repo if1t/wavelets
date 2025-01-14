@@ -30,8 +30,8 @@ def main(data_dir, output_dir, wavelet_names):
 
 
 if __name__ == '__main__':
-    data_directory = 'data'  # Замените на путь к вашим данным
+    data_directory = 'data'  # Путь к сигналам
     output_directory = 'output'  # Каталог для сохранения результатов
-    wavelets_to_use = ['db4', 'sym5', 'coif1']  # Выберите нужные вейвлеты
+    wavelets_to_use = ['db4', 'sym5', 'coif1']  # Вейвлеты
 
     main(data_directory, output_directory, wavelets_to_use)
